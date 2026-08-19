@@ -5,7 +5,7 @@
  * либо от таймера, смотря что придёт раньше. В production не подключается.
  */
 if (process.env.NODE_ENV === "development" && typeof window !== "undefined") {
-  const native = window.requestAnimationFrame.bind(window);
+  const native = window.requestAnimationFrame.bind(window);asasas
   window.requestAnimationFrame = (cb: FrameRequestCallback) => {
     let done = false;
     const run = (t: number) => {
