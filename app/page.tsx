@@ -8,3 +8,4 @@ const Experience = dynamic(() => import("@/components/Experience"), { ssr: false
 export default function Home() {
   return <Experience />;
 }
+asa
