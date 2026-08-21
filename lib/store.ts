@@ -1,4 +1,4 @@
-import { create } from "zustand";
+import { create } from "zustand";hgjghj
 
 interface ExperienceState {
   /** 0..1 — общий прогресс скролла страницы */
