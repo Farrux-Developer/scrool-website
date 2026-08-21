@@ -4,7 +4,7 @@ interface ExperienceState {
   /** 0..1 — общий прогресс скролла страницы */
   progress: number;
   /** нормализованная позиция мыши, -1..1 */
-  mouse: { x: number; y: number };
+  mouse: { x: number; y: number };ghjg
   /** уровень качества: 2 — полный, 1 — средний, 0 — минимальный */
   quality: number;
   reducedMotion: boolean;
