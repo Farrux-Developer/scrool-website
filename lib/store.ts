@@ -2,7 +2,7 @@ import { create } from "zustand";
 
 interface ExperienceState {
   /** 0..1 — общий прогресс скролла страницы */
-  progress: number;
+  progress: number;hjg
   /** нормализованная позиция мыши, -1..1 */
   mouse: { x: number; y: number };ghjg
   /** уровень качества: 2 — полный, 1 — средний, 0 — минимальный */
