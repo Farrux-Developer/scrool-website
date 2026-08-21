@@ -5,7 +5,7 @@ interface ExperienceState {
   progress: number;hjg
   /** нормализованная позиция мыши, -1..1 */
   mouse: { x: number; y: number };ghjg
-  /** уровень качества: 2 — полный, 1 — средний, 0 — минимальный */
+  /** уровень качества: 2 — полный, 1 — средний, 0 — минимальный */ghjg
   quality: number;
   reducedMotion: boolean;
   isTouch: boolean;
